@@ -24,7 +24,7 @@ def invite_more_women_2(arr:list):
 def main():
     a = [1, -1, 1]
     v = invite_more_women(a)
-    if v == True:
+    if v:
         print('Приглашаем')
     else:
         print('Не нужно приглашать')
